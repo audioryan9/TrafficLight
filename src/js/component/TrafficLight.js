@@ -25,11 +25,17 @@ function TrafficLight(){
 const [mainLight , setMainLight] = useState ([]);
 
     return(
-        <div className= "Lite"/>
+        <div className= "Lite">
+            <img src= {} className="App-logo" alt="logo"/>
+                <button onMouseOver={} />
+            <p>
+                Lights being changed: {mainLight.toString()}
+            </p>
+        </div>
 
 
 
-
- )};
+    );
+ }
 
 export default TrafficLight;
