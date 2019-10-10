@@ -6,7 +6,6 @@ function TrafficLight() {
 	return (
 		<div>
 			<div id="mainLight" className="mainLite">
-				aaaa
 				<div id="green" className="green1">
 					{" "}
 					grn{" "}
